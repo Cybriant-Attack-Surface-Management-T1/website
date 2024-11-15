@@ -3,7 +3,7 @@ body { background-color:#FFC425;
       color: #000000;
       font-family: Arial, helvetica;;
 }
-#wrapper { width: 80%;
+#wrapper { width: 100%;
            min-width: 700px;
            max-width: 1024px;
            margin-right: auto;
