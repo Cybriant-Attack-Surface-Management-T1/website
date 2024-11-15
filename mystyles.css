@@ -3,7 +3,7 @@ body { background-color:#FFC425;
       color: #000000;
       font-family: Arial, helvetica;;
 }
-#wrapper { width: 100%;
+#wrapper { width: 80%;
            min-width: 700px;
            max-width: 1024px;
            margin-right: auto;
@@ -85,7 +85,8 @@ footer { font-size: 0.70em;
 }
 h3 { color: #000000;
 }
-main { padding-left: 20px;
+main { max-width: 100%;
+        padding-left: 20px;
         padding-right: 20px;
         background-color: #FFFFFF;
         margin-left: 170px;
