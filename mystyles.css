@@ -12,33 +12,6 @@ body { background-color:#FFC425;
            box-shadow: 3px 3px 3px #666666;
 }
 
-/* Styles for tablets and smaller screens */
-@media (max-width: 1024px) {
-  #wrapper {
-    width: 90%;
-    min-width: 600px;
-    max-width: 900px;
-  }
-}
-
-/* Styles for mobile devices */
-@media (max-width: 768px) {
-  #wrapper {
-    width: 95%;
-    min-width: 300px;
-    max-width: 600px;
-  }
-}
-
-/* Styles for very small devices */
-@media (max-width: 480px) {
-  #wrapper {
-    width: 100%;
-    min-width: 200px;
-    max-width: 400px;
-  }
-}
-
 header { background-color: #231F20;
          color: #ffffff;
        font-family: Arial, helvetica;;
@@ -85,8 +58,7 @@ footer { font-size: 0.70em;
 }
 h3 { color: #000000;
 }
-main { max-width: 100%;
-        padding-left: 20px;
+main { padding-left: 20px;
         padding-right: 20px;
         background-color: #FFFFFF;
         margin-left: 170px;
