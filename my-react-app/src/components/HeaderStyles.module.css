@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    display: flex; /* Enables Flexbox */
+    flex-direction: row; /* Stacks content vertically */ 
+    align-items: center;
+    justify-content: space-evenly; /* Centers content vertically */
+    background-color: #231F20; /* New background color */
+    color: #FFFFFF; /* White text for contrast */
+    height: 20vh; /* Sets the height to 30% of the viewport */
+    width: 100vw; /* Ensures the banner spans the full viewport width */
+    margin: 0;
+    padding: 0;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    img{
+        height: px; /* Adjust size to fit nicely in the smaller header */
+        width: auto; /* Maintains aspect ratio */
+        margin-bottom: 10px; /* Adds spacing between the logo and title */
+    }
+    .title{
+        font-family: 'Arial', sans-serif; /* Change to your preferred font */
+        font-size: 36px; /* Adjust for a smaller header */
+        margin: 0; /* Removes default margin */
+        padding: 10px 0; /* Adds spacing above and below the title */
+    }
+}
+@media (max-width: 768px) {
+    .banner {
+      flex-direction: column; /* Stacks the logo and text vertically */
+      justify-content: center; /* Centers content vertically */
+      text-align: center; /* Aligns text to the center */
+      height: auto; /* Adjust height for better fit */
+    }
+}

@@ -1,0 +1,64 @@
+/* General reset styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* General styles for the layout */
+  * {
+    box-sizing: border-box; /* Ensures padding and border do not affect the width */
+  }
+  
+  /* Navigation Bar Styles */
+  .navbar {
+    background-color: #333; /* Dark background color for the navbar */
+    width: 100%; /* Ensures the navbar spans the full width */
+    display: flex; /* Use Flexbox for centering and layout */
+    justify-content: center; /* Centers the navigation links horizontally */
+    align-items: center; /* Centers items vertically if needed */
+    padding: 10px 0; /* Adds top and bottom padding for spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow under the navbar */
+  }
+  
+  /* Navigation List Styles */
+  .navList {
+    list-style-type: none; /* Removes the bullet points */
+    display: flex; /* Aligns list items horizontally */
+    margin: 0; /* Removes default margin around the list */
+    padding: 0; /* Removes default padding around the list */
+  }
+  
+  /* List Item Styles */
+  .navList li {
+    margin: 0 20px; /* Adds horizontal space between the list items (links) */
+  }
+  
+  /* Styles for Navigation Links */
+  .navList li a {
+    color: white; /* White text color for the links */
+    text-decoration: none; /* Removes the underline from the links */
+    font-size: 18px; /* Sets font size for links */
+    font-family: 'Arial', sans-serif; /* Sets the font family */
+  }
+  
+  /* Hover effect for links */
+  .navList li a:hover {
+    color: #00bfff; /* Light blue color on hover */
+  }
+  
+  /* Heading Styles */
+  .navList li h3 {
+    margin: 0; /* Removes margin from the heading */
+    color: white; /* White text for the heading */
+    font-size: 20px; /* Sets font size for the heading */
+    padding-left: 20px; /* Adds space before the heading */
+  }
+  
+  /* Glowing Effect for Active Navigation Item */
+  .navList li.active a {
+    color: #bac4c7; /* Set the text color to blue for the active item */
+    text-shadow: 0 0 8px #00bfff, 0 0 16px #00bfff, 0 0 24px #00bfff, 0 0 32px #00bfff; /* Glowing effect */
+  }
+  
