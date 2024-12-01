@@ -13,7 +13,7 @@ function Header() {
   return (
     <header className={styles.banner}>
       <img src={KSU} alt="KSU" />
-      <h1 className={styles.title}><a href="https://vite.dev/guide/">Built with React + Vite</a></h1>
+      <h1 className={styles.title}><a href="https://www.kennesaw.edu/ccse/events/computing-showcase/fa24-cday-winners.php#uc">CS 4850 Fall 2024</a></h1>
       <div
         className={`${styles.hamburger} ${menuOpen ? styles.open : ''}`}
         onClick={toggleMenu}

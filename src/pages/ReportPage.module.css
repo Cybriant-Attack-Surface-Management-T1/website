@@ -1,0 +1,20 @@
+/* Container to ensure proper alignment and spacing */
+.container {
+    width: 100%; /* Full width */
+    height: calc(100vh - 80px); /* Full viewport height minus the header height */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top to avoid excess space */
+}
+
+/* Style for the iframe */
+.pdfViewer {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    border: none; /* Remove border */
+}
+@media (max-width: 768px) {
+    .container {
+        height: calc(100vh - 60px); /* Adjust header height for smaller screens */
+    }
+}

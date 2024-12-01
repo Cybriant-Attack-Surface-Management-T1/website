@@ -1,16 +1,17 @@
 import React from 'react';
+import pdfFile from '../assets/reports/T1-Cybriant-FinalReport_CS4850_Fall2024.pdf'; // Adjust path as needed
+import styles from './ReportPage.module.css'; // Import the CSS module
 
-function ReportPage() {
-  console.log("Rendering HomePage");
+const ReportPage = () => {
   return (
-    <>
-      <main>
-        <h2>Final Reports</h2>
-        <p>Class required deliverables may be added at a later date!</p>
-        <p>This would include Project Plan, Document Design, System Requirements, Demo Pipeline, Specifications and etc</p>
-      </main>
-    </>
+    <div className={styles.container}>
+      <iframe
+        src={pdfFile}
+        title="Final Report"
+        className={styles.pdfViewer}
+      ></iframe>
+    </div>
   );
-}
+};
 
 export default ReportPage;
