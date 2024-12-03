@@ -16,7 +16,7 @@ function DemoPage() {
         <section className={styles.demoContent}>
           <iframe
             className={styles.demoVideo}
-            src="https://www.youtube.com/watch?v=dKuBirqW2Cs" // Replace with your video link
+            src="https://www.youtube.com/embed/dKuBirqW2Cs?si=3WAh7_9RQsKUDvvR" // Replace with your video link
             title="Demo Video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
