@@ -16,14 +16,14 @@ function DemoPage() {
         <section className={styles.demoContent}>
           <iframe
             className={styles.demoVideo}
-            src="https://www.youtube.com/embed/avSOdXtCtQ4" // Replace with your video link
+            src="https://www.youtube.com/watch?v=dKuBirqW2Cs" // Replace with your video link
             title="Demo Video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
           <article className={styles.demoText}>
-            <h3 className={styles.videolink}><a href="https://www.youtube.com/watch?v=avSOdXtCtQ4">Breakdown Video</a></h3>
+            <h3 className={styles.videolink}><a href="https://www.youtube.com/watch?v=dKuBirqW2Cs">Breakdown Video</a></h3>
             <p>
               This demo highlights the key features of our project, demonstrating its functionality and value.
               Watch the video to gain insight into how our solution can address specific challenges effectively.
